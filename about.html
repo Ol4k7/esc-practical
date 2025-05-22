@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Iyiola Olatomiwa Treasure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="advertisement.html">Advertisement</a>
+        <a href="esc.html">ESC Gallery</a>
+    </nav>
+
+    <main>
+        <section class="bio-box" onclick="toggleBio()">
+            <h2>Biography</h2>
+            <div id="bioText" class="bio-content">
+                <p>Iyiola Olatomiwa Treasure is a passionate full-stack developer and computer science student dedicated to solving real-world problems through technology. He is focused on building scalable and user-friendly web applications and aims to contribute meaningfully to the tech ecosystem in Africa and beyond.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Iyiola Olatomiwa Treasure. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleBio() {
+            const bio = document.getElementById('bioText');
+            bio.classList.toggle('show');
+        }
+    </script>
+    
+</body>
+</html>
